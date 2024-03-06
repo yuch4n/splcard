@@ -224,7 +224,7 @@ const makeCardSplatoon1 = ()=> {
       let canvas = document.getElementById('card');
       let ctx = canvas.getContext('2d');
       let img = new Image();
-      img.src = '../images/splatoon_card.png';
+      img.src = './images/splatoon_card.png';
       let cardfile = img.src.split('/')[4];
       img.onload = function() {
         canvas.width = img.width;
@@ -293,7 +293,7 @@ const makeCardSplatoon2 = ()=> {
       let canvas = document.getElementById('card');
       let ctx = canvas.getContext('2d');
       let img = new Image();
-      img.src = '../images/splatoon2_card.png';
+      img.src = './images/splatoon2_card.png';
       var cardfile = img.src.split('/')[4];
       img.src = img.src.replace(new RegExp('\.png$'),'_'+fdata.cardcolor+'.png');
       img.onload = function() {
@@ -446,7 +446,7 @@ const makeCardSplatoon3 = ()=> {
       let canvas = document.getElementById('card');
       let ctx = canvas.getContext('2d');
       let img = new Image();
-      img.src = '../images/splatoon3_card.png';
+      img.src = './images/splatoon3_card.png';
       var cardfile = img.src.split('/')[4];
       img.src = img.src.replace(new RegExp('\.png$'),'_'+fdata.cardtype+'.png');
       img.onload = function() {
