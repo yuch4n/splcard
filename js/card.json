@@ -1,0 +1,62 @@
+{
+  "splatoon_card.png": {
+    "name": { "x":60, "y":160},
+    "rank": { "x":125, "y": 290},
+    "udemae": { "x":375, "y": 290},
+    "buki": { "x":60, "y": 420},
+    "nnid": { "x":60, "y": 550},
+    "skype": { "x":60, "y": 685},
+    "free": { "x":60, "y": 805}
+  },
+  "splatoon2_card.png": {
+    "name": { "x":160, "y":120},
+    "rank": { "x":160, "y": 192},
+    "udemae_area": { "x":198, "y": 272},
+    "udemae_area_Splus_gauge": { "x":198, "y": 284},
+    "udemae_yagura": { "x":274, "y": 272},
+    "udemae_yagura_Splus_gauge": { "x":274, "y": 284},
+    "udemae_hoko": { "x":350, "y": 272},
+    "udemae_hoko_Splus_gauge": { "x":350, "y": 284},
+    "udemae_asari": { "x":428, "y": 272},
+    "udemae_asari_Splus_gauge": { "x":428, "y": 284},
+    "buki": { "x":160, "y": 336},
+    "skype": { "x":160, "y": 410},
+    "favrule": {
+      "nawabari": {"x": 155, "y": 466},
+      "area": {"x": 199, "y": 466},
+      "yagura": {"x": 243, "y": 466},
+      "hoko": {"x": 287, "y": 466},
+      "asari": {"x": 330, "y": 466},
+      "salmon": {"x": 374, "y": 466},
+      "league": {"x": 417, "y": 466},
+      "private": {"x": 461, "y": 466}
+    },
+    "favrule_radius": 18,
+    "favrule_linewidth": 5,
+    "playtime": { "x":196, "y": 558},
+    "nnid": { "x":196, "y": 630},
+    "free": { "x":40, "y": 760}
+  },
+  "splatoon3_card.png": {
+    "name": { "x":80, "y":307, "fontsize":36 },
+    "rank": { "x":575, "y": 307, "fontisize":36 },
+    "udemae": { "x":575, "y": 437, "fontsize":36 },
+    "buki": { "x":80, "y": 566, "fontsize":24 },
+    "vc": { "x":80, "y": 952, "fontsize":24 },
+    "favrule": {
+      "nawabari": {"x":83, "y":657 },
+      "area": {"x":155, "y":657 },
+      "yagura": {"x":228, "y":657 },
+      "hoko": {"x":300, "y":657 },
+      "asari": {"x":373, "y":657 },
+      "salmon": {"x":445, "y":657 },
+      "league": {"x":517, "y":657 },
+      "private": {"x":580, "y":657 }
+    },
+    "favrule_radius": 18,
+    "favrule_linewidth": 5,
+    "playtime": { "x":80, "y":822, "fontsize":24 },
+    "friendcode": { "x":80, "y":433, "fontsize":28 },
+    "free": { "x":80, "y":1082 }
+  }
+}
