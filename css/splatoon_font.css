@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'splatoon_font';
-  src:  url('/fonts/splatoon_font.eot?jhipq0');
-  src:  url('/fonts/splatoon_font.eot?jhipq0#iefix') format('embedded-opentype'),
-    url('/fonts/splatoon_font.ttf?jhipq0') format('truetype'),
-    url('/fonts/splatoon_font.woff?jhipq0') format('woff'),
-    url('/fonts/splatoon_font.svg?jhipq0#splatoon_font') format('svg');
+  src:  url('../fonts/splatoon_font.eot?jhipq0');
+  src:  url('../fonts/splatoon_font.eot?jhipq0#iefix') format('embedded-opentype'),
+    url('../fonts/splatoon_font.ttf?jhipq0') format('truetype'),
+    url('../fonts/splatoon_font.woff?jhipq0') format('woff'),
+    url('../fonts/splatoon_font.svg?jhipq0#splatoon_font') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

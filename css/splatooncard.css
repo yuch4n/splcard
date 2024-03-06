@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'ikamodoki';
-    src: url('/fonts/ikamodoki1_0.ttf') format('truetype');
+    src: url('../fonts/ikamodoki1_0.ttf') format('truetype');
 }
 @font-face {
     font-family: 'paintball';
-    src: url('/fonts/Paintball_Beta_3.ttf') format('truetype');
+    src: url('../fonts/Paintball_Beta_3.ttf') format('truetype');
 }
 .ikafont {
     font-family: 'ikamodoki','paintball';
