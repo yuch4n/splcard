@@ -447,7 +447,8 @@ const makeCardSplatoon3 = ()=> {
       let ctx = canvas.getContext('2d');
       let img = new Image();
       img.src = './images/splatoon3_card.png';
-      var cardfile = img.src.split('/')[4];
+      //var cardfile = img.src.split('/')[4];
+      var cardfile = img.src.split('/').slice(-1)[0];
       img.src = img.src.replace(new RegExp('\.png$'),'_'+fdata.cardtype+'.png');
       img.onload = function() {
         canvas.width = img.width;
