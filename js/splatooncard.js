@@ -13,7 +13,7 @@ const webfontLoad = (font_family)=> {
     WebFont.load({
       custom: {
         families: [font_family],
-        urls: ['../css/font_'+font_family+'.css']
+        urls: ['./css/font_'+font_family+'.css']
       }/*,
       fontloading: function(familyName, fvd) {
         console.log('fontloading', familyName, fvd);
