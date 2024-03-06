@@ -89,7 +89,7 @@ const appendSelectOption = (elem, text, val, disabled=false)=> {
 }
 
 const loadSplatoonData = ()=> {
-  fetch('./splatoon_data.json', {
+  fetch('./js/splatoon_data.json', {
     method: 'GET',
   }).then((response) => {
     return response.json();
@@ -158,7 +158,7 @@ const loadSplatoonData = ()=> {
     console.log(error);
   });
 
-  fetch('./card.json', {
+  fetch('./js/card.json', {
     method: 'GET',
   }).then((response) => {
     return response.json();
